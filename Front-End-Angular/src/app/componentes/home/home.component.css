@@ -1,0 +1,41 @@
+
+  
+  .home__presentacion {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+    width: 100%;
+  }
+  .home__presentacion__text1{
+      font-size: 27px;
+      font-family: 'Ubuntu', sans-serif;
+  }
+  
+  .home__presentacion__text2{
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 75px;
+      font-weight: 600;
+  }
+  .home__presentacion__text3{
+      font-size: 40px;
+      font-family: 'Ubuntu', sans-serif;   
+      font-weight: 600;
+      display: inline-block;
+  }
+  .home__presentacion__text4{
+      font-size: 40px;
+      font-family: 'Ubuntu', sans-serif;   
+      font-weight: 600;
+      display: inline-flex;
+  }
+  
+  .home__presentacion__tipear{
+      overflow: hidden;
+      border-right: .15em solid #5ba9eb;
+      white-space: nowrap;
+      width: 0;
+      animation: typing 3.5s steps(20, end) forwards, blinking .8s infinite;
+      font-size: 40px;
+      color:#5ba9eb;
+      margin-left: 10px;
+  }

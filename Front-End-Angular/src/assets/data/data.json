@@ -1,0 +1,144 @@
+{
+  "encabezado": {
+    "logo": "../assets/imagenes/LOGO.png",
+    "titulo": "#YoProgramo",
+    "Linkedin": "https://www.linkedin.com/in/florbalderian/",
+    "Instagram": "https://www.instagram.com/fbalderian/",
+    "iconoLinkedin":"fab fa-linkedin",
+    "iconoInstagram":"fab fa-instagram",
+    "Login": ""
+   
+  },
+
+  "home": {
+    "presentacion":"Hola, mi nombre es",
+    "nombre": "Florencia Balderian",
+    "cargo": "FULLSTACK DEVELOPER JR."
+  },
+
+  "aboutMe": {
+    "imgAbout": "../assets/imagenes/foto.png",
+    "about1": "Soy estudiante de la carrera Analista Programador, he realizado diversos cursos de testing de software, lógica de programación, base de datos, JavaScript, HTML y CSS. También tengo conocimientos en metodologías ágiles.",
+    "about2": "Mi experiencia incluye planificación, diseño, y ejecución de casos de prueba, redacción de informes y actualización de bases de datos.",
+    "about3": "Me interesa formar parte de un equipo de trabajo que me permita crecer y desarrollarme profesionalmente a la vez que aporto valor desde mi conocimiento para la obtención de un producto de calidad.",
+    "about4": "Soy una persona responsable, proactiva y muy motivada, con una gran capacidad de comunicación para coordinarse con diferentes compañeros de trabajo.",
+    
+    "informacion": [
+      {
+        "icono": "fas fa-birthday-cake",
+        "dato": "Noviembre 29, 1995"
+      },
+
+      {
+        "icono": "fas fa-map-marker-alt",
+        "dato": "Buenos Aires, ARG"
+      },
+      {
+        "icono": "fas fa-envelope",
+        "dato": "florbalderian@gmail.com"
+      }
+    ],
+    "cv": ""
+  },
+
+  "experiencia": [
+      {
+        "id":1,
+        "icono":"fas fa-bug", 
+        "trabajo": "QA freelance",
+        "fecha": "2021 - actualidad",
+        "tareas": "Diseño y ejecucion de casos de pruebas de forma manual. Seguimiento y reporte de bugs."
+      },
+
+      {"id":2,
+        "icono":"far fa-address-book", 
+        "trabajo": "Secretaria",
+        "ano": "2019 - 2021",
+        "tareas": "Recepción de pacientes, pago a proveedores, manejo de agenda y de caja."
+      }
+    ],
+    "educacion":  [
+      {
+        "id":1,
+        "carrera": "Analista Programador",
+        "fecha": "2021-Actualidad",
+        "imagenEdu": "../assets/imagenes/uai.png",
+        "institucion":"Universidad Abierta Interamericana"
+      }
+    ]
+  ,
+
+  "certificaciones":  [
+      { "id":1,
+        "icono":"fas fa-laptop-code",
+        "titulo": "Argentina Programa #SeProgramar",
+        "otorgadoPor": "Cámara de la Industria Argentina del Software",
+        "fecha": "Noviembre - Actualidad"
+      },
+      {"id":2,
+        "icono":"fas fa-search",
+        "titulo": "Testing QA - Codo a Codo",
+        "otorgadoPor": "Ministerio de educación del gobierno de la Ciudad de Buenos Aires",
+        "fecha": "Agosto - Diciembre 2021"
+      },
+      {"id":3,
+        "icono":"fas fa-search",
+        "titulo": "Testing de Software",
+        "otorgadoPor": "Fundación PROEM",
+        "fecha": "Septiembre - Noviembre 2021"
+      },
+      {"id":4,
+        "icono":"fas fa-laptop-code",
+        "titulo": "Argentina Programa #YoProgramo",
+        "otorgadoPor": "Cámara de la Industria Argentina del Software",
+        "fecha": "Agosto - Octubre 2021"
+      },
+      {"id":5,
+        "icono":"fas fa-user-cog",
+        "titulo": "Scrum Fundamental Certified",
+        "otorgadoPor": "SCRUMstudy™",
+        "fecha": ""
+      },
+      {"id":6,
+        "icono":"far fa-comments",
+        "titulo": "Curso Habilidades Blandas",
+        "otorgadoPor": "ACCENTURE",
+        "fecha": ""
+      }
+    ],  
+    
+     "tecnologias": [
+      { "id":1,"icono": "fab fa-html5", "dato": "HTML" },
+      { "id":2,"icono": "fab fa-css3-alt", "dato": "CSS" },
+      { "id":3,"icono": "fab fa-js-square", "dato": "Javascript" },
+      { "id":4,"icono": "fab fa-bootstrap", "dato": "Bootstrap" },
+      { "id":5,"icono": "fas fa-code", "dato": "Typescript" },
+      { "id":6,"icono": "fab fa-github", "dato": "Github" },
+      { "id":7,"icono": "fas fa-database", "dato": "MySQL" },
+      { "id":8,"icono": "fab fa-product-hunt", "dato": "Postman" },
+      { "id":9,"icono": "fas fa-cogs", "dato": "JMeter" }
+    ],
+    
+    "softSkills":[
+        
+      { "id":10,"icono": "fas fa-user-plus", "dato": "Proactividad" },
+      { "id":11,"icono": "far fa-handshake", "dato": "Comunicación" },
+      { "id":12,"icono": "fas fa-users", "dato": "Trabajo en equipo" },
+      { "id":13,"icono": "far fa-lightbulb", "dato": "Creatividad" },
+      { "id":14,"icono": "fas fa-briefcase", "dato": "Resolución de problemas" }
+    ],
+    "idioma":[  
+      { "id":15,"icono": "fas fa-globe-americas", "dato": "Español" },
+      { "id":16,"icono": "fas fa-globe-europe", "dato": "Inglés" }
+    ],
+  
+  
+  "proyectos":  [{}]
+  ,
+
+  "portfolio":{
+      "titulo":"Portfolio",
+      "nombre":"Florencia Balderian", 
+      "derechos":"2022 All rights reserved"
+  }
+}

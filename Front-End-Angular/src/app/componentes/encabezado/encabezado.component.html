@@ -1,0 +1,51 @@
+<header>
+  <nav id="nav" class="nav"  
+  >
+    <div class="logo">
+      <img class="nav__li__logo" [src]="encabezadoData.logo" />
+      <h1 class="titulo">{{ encabezadoData.titulo }}</h1>
+    </div>
+    <div class="nav__menu">
+      <ul class="nav__menu__ul">
+        <li 
+        class="nav__li">
+          <i [class]="encabezadoData.iconoLinkedin"></i>
+          <a [href]="encabezadoData.Linkedin" target="_BLANK">
+            Linkedin</a
+          >
+        </li>
+        <li class="nav__li">
+          <i [class]="encabezadoData.iconoInstagram"></i>
+          <a [href]="encabezadoData.Instagram" target="_BLANK">
+            Instagram</a
+          >
+        </li>
+      </ul>
+      <div class="nav__login">
+        <app-boton texto="Login"></app-boton>
+      </div>
+    </div>
+
+    <div class="nav__menu-responsive">
+      <div><i class="fas fa-bars"></i></div>
+      <ul>
+        <li class="nav__responsive-li">
+          <i [class]="encabezadoData.iconoLinkedin"></i>
+          <a [href]="encabezadoData.Linkedin" target="_BLANK"
+            >Linkedin</a
+          >
+        </li>
+        <li class="nav__responsive-li">
+          <i i [class]="encabezadoData.iconoInstagram"></i>
+          <a [href]="encabezadoData.Instagram" target="_BLANK">
+            Instagram</a
+          >
+        </li>
+      </ul>
+
+      <div class="nav__responsive-login">
+        <button type="button" class="btn btn-primary">Login</button>
+      </div>
+    </div>
+  </nav>
+</header>

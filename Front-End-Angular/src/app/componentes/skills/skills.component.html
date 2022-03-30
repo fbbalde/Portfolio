@@ -1,0 +1,39 @@
+<section class="skills">
+  <h2 class="skills__h2 titulo__borde">Hard & Soft Skills</h2>
+  <div class="skills__lista">
+    <ul class="skills__lista__ul">
+        <div class="skills__lista__ul__title">Tecnologias</div>
+     <li
+        *ngFor="let skill of skillData1"
+        class="skills__lista__ul__li"
+      >
+      <app-boton-eliminar clasesAdBoton="boton-skill" clasesAd="fas fa-times"
+      (click)="Borrar(skill.id)"
+      ></app-boton-eliminar> 
+
+         <i [class]="skill.icono"></i>{{ skill.dato }}
+      </li>
+    </ul>
+    <ul class="skills__lista__ul">
+      <div class="skills__lista__ul__title">Soft Skills</div>
+      <li
+        *ngFor="let skill of skillData2"
+        class="skills__lista__ul__li"
+      >
+         <app-boton-eliminar clasesAdBoton="boton-skill" clasesAd="fas fa-times"
+     (click)="Borrar(skill.id)"
+     ></app-boton-eliminar> 
+        <i [class]="skill.icono"></i>{{ skill.dato }}
+      </li>
+    </ul>
+    <ul class="skills__lista__ul">
+      <div class="skills__lista__ul__title">Idiomas</div>
+      <li *ngFor="let skill of skillData3" class="skills__lista__ul__li">
+        <app-boton-eliminar clasesAdBoton="boton-skill" clasesAd="fas fa-times"
+        (click)="Borrar(skill.id)"
+        ></app-boton-eliminar> 
+        <i [class]="skill.icono"></i>{{ skill.dato }}
+      </li>
+    </ul>
+  </div>
+</section>

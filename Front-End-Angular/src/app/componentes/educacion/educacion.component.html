@@ -1,0 +1,18 @@
+<section class="educacion">
+  <h2 class="educacion__h2 titulo__borde">Educación
+  </h2>
+  
+  <ul class="educacion__ul">
+    <li *ngFor="let edu of eduData"
+     class="educacion__ul__li">
+     <app-boton-eliminar clasesAd="fas fa-times"
+     (click)="Borrar(edu.id)"
+     ></app-boton-eliminar> 
+      <div>
+      <h3 class="educacion__ul__li__h3">{{ edu.carrera }}</h3>
+      <p class="educacion__ul__li__año">{{ edu.fecha }}</p>
+    </div>
+    <img class="educacion__ul__li__uai" [src]="edu.imagenEdu" />
+    </li>
+  </ul>
+</section>

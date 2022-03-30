@@ -1,0 +1,22 @@
+<section class="certificacion">
+  <h2 class="certificacion__h2 titulo__borde">Certificaciones</h2>
+  <ul class="certificacion__ul">
+    <li *ngFor="let cert of certifData" class="certificacion__ul__li">
+      <app-boton-eliminar clasesAd="fas fa-times"
+     (click)="Borrar(cert.id)"
+     ></app-boton-eliminar>
+      <div class="certificacion__ul__li__contenido">
+        <i [class]="cert.icono + ' certificaciones_icono'"></i>
+        <p class="certificacion__ul__li__p-titulo">
+          {{ cert.titulo }}
+        </p>
+        <p class="certificacion__ul__li__p-lugar">
+          {{ cert.otorgadoPor }}
+        </p> 
+        <p class="certificacion__ul__li__p-fecha">
+          {{ cert.fecha }}
+        </p>
+      </div>
+    </li>
+  </ul>
+</section>

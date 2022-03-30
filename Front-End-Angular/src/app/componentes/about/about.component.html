@@ -1,0 +1,39 @@
+<section class="about">
+  <div class="about__datos-personales">
+    <div class="about__datos-personales__contenedor-imagen">
+      <img
+        class="about__datos-personales__foto-perfil"
+        [src]="aboutData.imgAbout"
+      />
+    </div>
+    <ul class="about__dato-personales__contacto-ul">
+      <li
+        *ngFor="let info of aboutData.informacion"
+        class="about__dato-personales__contacto-li"
+      >
+        <i [class]="info.icono + ' icono'"></i>{{ info.dato }}
+      </li>
+    </ul>
+    <app-boton texto="Descargar CV" class="boton-descarga"></app-boton>
+  </div>
+
+  <div class="about__descripcion">
+  
+    <h2 class="about__descripcion__title titulo__borde">
+      Sobre<span class="texto-color">&nbsp;mí</span>
+    </h2>
+    <p class="about__descripcion__presentacion">
+      {{aboutData.about1}}
+    </p>
+    <p class="about__descripcion__presentacion">
+      {{aboutData.about2}}
+    </p>
+    <p class="about__descripcion__presentacion">
+      {{aboutData.about3}}
+    </p>
+    <p class="about__descripcion__presentacion">
+      {{aboutData.about4}}
+    </p>
+
+  </div>
+</section>

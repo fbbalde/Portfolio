@@ -1,0 +1,14 @@
+.footer__contenido {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: #44566c;
+    font-size: 13px;
+    margin-top: 5px;
+  }
+  .footer__contenido__nombre {
+    color: #0d6efd;
+  }

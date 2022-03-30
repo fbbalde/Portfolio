@@ -1,0 +1,29 @@
+.proyectos {
+    background: #111;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Inter", sans-serif;
+    padding: 30px;
+  }
+  
+  .proyectos__h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 35px;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+  }
+  
+.imagen__miPortfolio{
+  height:300px;
+  width:auto;
+ 
+}
+.imagen__task{
+  height:300px;
+  width:auto;
+  
+}

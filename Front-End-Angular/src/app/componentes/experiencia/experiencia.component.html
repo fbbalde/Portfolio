@@ -1,0 +1,26 @@
+<section class="experiencia">
+  <h2 class="experiencia__titulo titulo__borde">
+    <span class="texto-color">Mi</span> &nbsp;experiencia
+  </h2>
+  <ul class="experiencia__ul">
+   
+    <li
+      *ngFor="let exp of experienciaData"
+      class="experiencia__ul__li"
+    >
+    <app-boton-eliminar clasesAd="fas fa-times"
+    (click)="Borrar(exp.id)"
+    ></app-boton-eliminar>
+    <div class="experiencia__ul__li_icono">
+      <i [class]="exp.icono"></i>
+    </div>
+    <div class="experiencia__descripcion">
+      <h3 class="experiencia__h3">{{exp.trabajo}}</h3>
+        <div class="experiencia__año">{{exp.fecha}}</div>
+        <p class="experiencia__p">
+          {{exp.tareas}}
+        </p>
+    </div>
+  </li>
+  </ul>
+</section>
