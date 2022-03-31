@@ -17,13 +17,14 @@
     font-family: "Inter", sans-serif;
   }
   
-.imagen__miPortfolio{
-  height:300px;
-  width:auto;
- 
+.imagen__carousel{
+height:300px;
+width:auto;
+margin:auto;
+display:block;
 }
-.imagen__task{
-  height:300px;
-  width:auto;
-  
+
+.carousel-proyectos{
+  width:100%;
+  max-width: 700px;
 }

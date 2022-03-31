@@ -16,7 +16,7 @@ eduData: Educacion[]=[];
       console.log(data); 
       this.eduData=data;
     });  
-  }
+  }  
 
   Borrar(id:number){
     this.eduData = this.eduData.filter(x=>x.id != id);

@@ -34,8 +34,7 @@
 
   <body>
     <header>
-      
-      <nav id="nav" class="nav" >
+      <nav id="nav" class="nav">
         <div class="logo">
           <img class="nav__li__logo" src="imagenes/LOGO.png" />
           <h1 class="titulo">#YoProgramo</h1>
@@ -92,11 +91,17 @@
       <section class="home" id="home">
         <div class="home__presentacion">
           <div class="home__presentacion__text1">Hola, mi nombre es</div>
-          <h1 class="home__presentacion__text2"><strong>Florencia Balderian</strong></h1>
+          <h1 class="home__presentacion__text2">
+            <strong>Florencia Balderian</strong>
+          </h1>
           <div class="home__presentacion__text3">Y soy</div>
-          <div class="home__presentacion__text4"> <div class="home__presentacion__tipear">FULLSTACK DEVELOPER JR.</div></div>
+          <div class="home__presentacion__text4">
+            <div class="home__presentacion__tipear">
+              FULLSTACK DEVELOPER JR.
+            </div>
+          </div>
         </div>
-      </section> 
+      </section>
 
       <section class="about">
         <div class="about__datos-personales">
@@ -127,9 +132,18 @@
             Sobre<span class="texto-color">&nbsp;mí</span>
           </h2>
           <p class="about__descripcion__presentacion">
-            Soy estudiante de la carrera de Analista Programador en la
-            Universidad Abierta Interamericana, con conocimientos en Testing de
-            Software.
+            Soy estudiante de la carrera Analista Programador, he realizado
+            diversos cursos de testing de software, lógica de programación, base
+            de datos, JavaScript, HTML y CSS. También tengo conocimientos en
+            metodologías ágiles.<br />
+            Mi experiencia incluye planificación, diseño, y ejecución de casos
+            de prueba, redacción de informes y actualización de bases de
+            datos.<br />Me interesa formar parte de un equipo de trabajo que me
+            permita crecer y desarrollarme profesionalmente a la vez que aporto
+            valor desde mi conocimiento para la obtención de un producto de
+            calidad. Soy una persona responsable, proactiva y muy motivada, con
+            una gran capacidad de comunicación para coordinarse con diferentes
+            compañeros de trabajo.
           </p>
         </div>
       </section>
@@ -351,6 +365,39 @@
 
       <section class="proyectos">
         <h2 class="proyectos__h2 titulo__borde">Proyectos</h2>
+
+        <div
+          id="carouselExampleControls"
+          class="carousel slide carousel-proyectos"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./imagenes/portfolio.png" class="imagen__carousel" />
+            </div>
+            <div class="carousel-item">
+              <img src="./imagenes/task.png" class="imagen__carousel" />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </section>
     </article>
     <aside></aside>

@@ -133,8 +133,18 @@
     ],
   
   
-  "proyectos":  [{}]
-  ,
+  "proyectos":  [
+    {"id":1,
+      "nombre":"miPortfolio",
+      "url":"",
+      "imagen":"../assets/imagenes/portfolio.png"
+    },
+    {"id":2,
+      "nombre":"task",
+      "url":"",
+      "imagen":"../assets/imagenes/task.png"
+    }
+],
 
   "portfolio":{
       "titulo":"Portfolio",

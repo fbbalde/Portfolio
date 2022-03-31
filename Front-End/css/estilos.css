@@ -523,6 +523,16 @@ margin-bottom: 10px
     font-family: "Inter", sans-serif;
 
 }
+.imagen__carousel{
+  height:300px;
+  width:auto;
+ margin:auto;
+ display:block;
+}
+.carousel-proyectos{
+  width: 100%;
+  max-width: 700px;
+}
 
 .footer__contenido{
     display: flex;
